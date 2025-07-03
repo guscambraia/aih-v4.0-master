@@ -1,0 +1,117 @@
+2025-06-30T18:28:58.974Z - GET /api/dashboard
+2025-06-30T18:29:14.367Z - POST /api/relatorios/aprovacoes
+Gerando relatório tipo: aprovacoes - página: 1
+Relatório aprovacoes gerado com sucesso
+📊 Stats: 16 AIHs, 32 movimentações, DB: 0.23MB
+2025-06-30T18:29:28.427Z - POST /api/relatorios/analise-temporal-cadastros
+Gerando relatório tipo: analise-temporal-cadastros - página: 1
+Relatório analise-temporal-cadastros gerado com sucesso
+2025-06-30T18:29:38.781Z - POST /api/relatorios/analise-temporal-cadastros/export
+2025-06-30T18:29:44.491Z - POST /api/relatorios/logs-exclusao
+Gerando relatório tipo: logs-exclusao - página: 1
+Relatório logs-exclusao gerado com sucesso
+2025-06-30T18:29:49.276Z - POST /api/relatorios/analise-preditiva
+Gerando relatório tipo: analise-preditiva - página: 1
+Relatório analise-preditiva gerado com sucesso
+Iniciando manutenção do banco...
+Logs limpos: 0 registros removidos
+Banco otimizado com sucesso
+Manutenção concluída
+2025-06-30T18:29:57.162Z - POST /api/relatorios/aprovacoes
+Gerando relatório tipo: aprovacoes - página: 1
+Relatório aprovacoes gerado com sucesso
+2025-06-30T18:30:00.493Z - POST /api/relatorios/acessos
+Gerando relatório tipo: acessos - página: 1
+Relatório acessos gerado com sucesso
+2025-06-30T18:30:04.852Z - POST /api/relatorios/estatisticas-periodo
+Gerando relatório tipo: estatisticas-periodo - página: 1
+Relatório estatisticas-periodo gerado com sucesso
+2025-06-30T18:30:23.018Z - POST /api/relatorios/estatisticas-periodo/export
+2025-06-30T18:30:32.562Z - POST /api/relatorios/performance-competencias
+Gerando relatório tipo: performance-competencias - página: 1
+Relatório performance-competencias gerado com sucesso
+2025-06-30T18:30:38.511Z - POST /api/relatorios/performance-competencias/export
+2025-06-30T18:30:42.863Z - POST /api/relatorios/logs-exclusao
+Gerando relatório tipo: logs-exclusao - página: 1
+Relatório logs-exclusao gerado com sucesso
+2025-06-30T18:30:44.207Z - POST /api/relatorios/logs-exclusao/export
+2025-06-30T18:30:47.908Z - POST /api/relatorios/analise-preditiva
+Gerando relatório tipo: analise-preditiva - página: 1
+Relatório analise-preditiva gerado com sucesso
+2025-06-30T18:30:49.246Z - POST /api/relatorios/analise-preditiva/export
+2025-06-30T18:30:52.984Z - POST /api/relatorios/aprovacoes
+Gerando relatório tipo: aprovacoes - página: 1
+Relatório aprovacoes gerado com sucesso
+2025-06-30T18:30:54.398Z - POST /api/relatorios/aprovacoes/export
+2025-06-30T18:31:01.269Z - POST /api/relatorios/acessos
+Gerando relatório tipo: acessos - página: 1
+Relatório acessos gerado com sucesso
+2025-06-30T18:31:02.925Z - POST /api/relatorios/acessos/export
+2025-06-30T18:31:07.826Z - POST /api/relatorios/estatisticas-periodo
+Gerando relatório tipo: estatisticas-periodo - página: 1
+Relatório estatisticas-periodo gerado com sucesso
+2025-06-30T18:31:09.507Z - POST /api/relatorios/estatisticas-periodo/export
+2025-06-30T18:31:15.105Z - POST /api/relatorios/performance-competencias
+Gerando relatório tipo: performance-competencias - página: 1
+Relatório performance-competencias gerado com sucesso
+2025-06-30T18:31:16.601Z - POST /api/relatorios/performance-competencias/export
+2025-06-30T18:31:23.898Z - POST /api/relatorios/detalhamento-status
+Gerando relatório tipo: detalhamento-status - página: 1
+Relatório detalhamento-status gerado com sucesso
+2025-06-30T18:31:25.388Z - POST /api/relatorios/detalhamento-status/export
+2025-06-30T18:31:31.056Z - POST /api/relatorios/tipos-glosa-periodo
+Gerando relatório tipo: tipos-glosa-periodo - página: 1
+Relatório tipos-glosa-periodo gerado com sucesso
+2025-06-30T18:31:32.772Z - POST /api/relatorios/tipos-glosa-periodo/export
+2025-06-30T18:31:39.908Z - POST /api/relatorios/ranking-glosas-frequentes
+Gerando relatório tipo: ranking-glosas-frequentes - página: 1
+Relatório ranking-glosas-frequentes gerado com sucesso
+2025-06-30T18:31:43.322Z - POST /api/relatorios/ranking-glosas-frequentes/export
+2025-06-30T18:31:48.873Z - POST /api/relatorios/distribuicao-valores
+Gerando relatório tipo: distribuicao-valores - página: 1
+Relatório distribuicao-valores gerado com sucesso
+2025-06-30T18:31:50.660Z - POST /api/relatorios/distribuicao-valores/export
+2025-06-30T18:31:55.714Z - POST /api/relatorios/analise-financeira
+Gerando relatório tipo: analise-financeira - página: 1
+Relatório analise-financeira gerado com sucesso
+2025-06-30T18:32:11.957Z - POST /api/relatorios/analise-financeira/export
+2025-06-30T18:32:21.438Z - POST /api/relatorios/valores-glosas-periodo
+Gerando relatório tipo: valores-glosas-periodo - página: 1
+Relatório valores-glosas-periodo gerado com sucesso
+2025-06-30T18:32:48.112Z - POST /api/relatorios/valores-glosas-periodo/export
+2025-06-30T18:32:57.542Z - POST /api/relatorios/analise-valores-glosas
+Gerando relatório tipo: analise-valores-glosas - página: 1
+Relatório analise-valores-glosas gerado com sucesso
+2025-06-30T18:33:09.175Z - POST /api/relatorios/analise-valores-glosas/export
+2025-06-30T18:33:18.776Z - POST /api/relatorios/cruzamento-profissional-glosas
+Gerando relatório tipo: cruzamento-profissional-glosas - página: 1
+Relatório cruzamento-profissional-glosas gerado com sucesso
+2025-06-30T18:33:22.853Z - POST /api/relatorios/cruzamento-profissional-glosas/export
+2025-06-30T18:33:29.554Z - POST /api/relatorios/glosas-profissional-periodo
+Gerando relatório tipo: glosas-profissional-periodo - página: 1
+Relatório glosas-profissional-periodo gerado com sucesso
+2025-06-30T18:33:33.151Z - POST /api/relatorios/glosas-profissional-periodo/export
+2025-06-30T18:33:43.478Z - POST /api/relatorios/aihs-profissional-periodo
+Gerando relatório tipo: aihs-profissional-periodo - página: 1
+Relatório aihs-profissional-periodo gerado com sucesso
+2025-06-30T18:33:46.335Z - POST /api/relatorios/aihs-profissional-periodo/export
+2025-06-30T18:33:57.417Z - POST /api/relatorios/produtividade-auditores
+Gerando relatório tipo: produtividade-auditores - página: 1
+Relatório produtividade-auditores gerado com sucesso
+2025-06-30T18:34:01.659Z - POST /api/relatorios/produtividade-auditores/export
+2025-06-30T18:34:12.880Z - POST /api/relatorios/comparativo-auditorias
+Gerando relatório tipo: comparativo-auditorias - página: 1
+Relatório comparativo-auditorias gerado com sucesso
+2025-06-30T18:34:15.266Z - POST /api/relatorios/comparativo-auditorias/export
+2025-06-30T18:34:23.496Z - POST /api/relatorios/eficiencia-processamento
+Gerando relatório tipo: eficiencia-processamento - página: 1
+Relatório eficiencia-processamento gerado com sucesso
+2025-06-30T18:34:25.629Z - POST /api/relatorios/eficiencia-processamento/export
+2025-06-30T18:34:35.509Z - POST /api/relatorios/analise-temporal-cadastros
+Gerando relatório tipo: analise-temporal-cadastros - página: 1
+Relatório analise-temporal-cadastros gerado com sucesso
+2025-06-30T18:34:37.900Z - POST /api/relatorios/analise-temporal-cadastros/export
+2025-06-30T18:34:43.238Z - POST /api/relatorios/fluxo-movimentacoes
+Gerando relatório tipo: fluxo-movimentacoes - página: 1
+Relatório fluxo-movimentacoes gerado com sucesso
+2025-06-30T18:34:46.829Z - POST /api/relatorios/fluxo-movimentacoes/export

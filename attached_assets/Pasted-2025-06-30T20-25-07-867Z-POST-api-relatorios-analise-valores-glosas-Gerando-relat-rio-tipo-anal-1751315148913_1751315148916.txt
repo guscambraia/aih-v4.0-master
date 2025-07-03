@@ -1,0 +1,36 @@
+2025-06-30T20:25:07.867Z - POST /api/relatorios/analise-valores-glosas
+Gerando relatório tipo: analise-valores-glosas - página: 1
+📅 Relatório analise-valores-glosas - Filtro por período: 2025-06-01 até 2025-06-30
+Erro SQL: {
+  sql: '\n' +
+    '                    SELECT \n' +
+    '                        COUNT(DISTINCT a.id) as aihs_com_glosas,\n' +
+    '      ',
+  params: [ '2025-06-01', '2025-06-30' ],
+  error: 'SQLITE_ERROR: ambiguous column name: criado_em'
+}
+Erro ao gerar relatório analise-valores-glosas: Error: SQLITE_ERROR: ambiguous column name: criado_em
+--> in Database#get('\n' +
+  '                    SELECT \n' +
+  '                        COUNT(DISTINCT a.id) as aihs_com_glosas,\n' +
+  '                        COUNT(g.id) as total_glosas,\n' +
+  '                        SUM(a.valor_inicial) as valor_inicial_total,\n' +
+  '                        SUM(a.valor_atual) as valor_atual_total,\n' +
+  '                        SUM(a.valor_inicial - a.valor_atual) as valor_total_glosas,\n' +
+  '                        AVG(a.valor_inicial - a.valor_atual) as media_glosa_por_aih,\n' +
+  '                        MIN(a.valor_inicial - a.valor_atual) as menor_impacto,\n' +
+  '                        MAX(a.valor_inicial - a.valor_atual) as maior_impacto\n' +
+  '                    FROM aihs a\n' +
+  '                    LEFT JOIN glosas g ON a.id = g.aih_id AND g.ativa = 1\n' +
+  '                    WHERE EXISTS (SELECT 1 FROM glosas gg WHERE gg.aih_id = a.id AND gg.ativa = 1)\n' +
+  '                     AND DATE(criado_em) BETWEEN ? AND ?\n' +
+  '                ', [ '2025-06-01', '2025-06-30' ], [Function (anonymous)])
+    at /home/runner/workspace/database.js:332:14
+    at new Promise (<anonymous>)
+    at get (/home/runner/workspace/database.js:331:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async /home/runner/workspace/server.js:1841:46 {
+  errno: 1,
+  code: 'SQLITE_ERROR',
+  __augmented: true
+}

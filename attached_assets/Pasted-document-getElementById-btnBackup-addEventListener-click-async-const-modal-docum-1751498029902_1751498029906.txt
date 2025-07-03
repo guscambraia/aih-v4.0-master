@@ -1,0 +1,45 @@
+document.getElementById('btnBackup').addEventListener('click', async () => {
+    const modal = document.getElementById('modal');
+    
+    modalContent.innerHTML = `
+        <h3>💾 Backup da Base de Dados</h3>
+        <p style="margin-bottom: 2rem; color: #64748b;">Faça o backup completo do banco de dados do sistema:</p>
+
+        <div style="display: grid; gap: 1rem; margin-top: 1rem;">
+            <button onclick="fazerBackup()" 
+                    style="background: linear-gradient(135deg, #10b981 0%, #059669 100%); 
+                           color: white; border: none; border-radius: 8px; cursor: pointer;
+                           padding: 1.5rem; font-size: 1.1rem; display: flex; align-items: center; gap: 1rem;
+                           transition: all 0.2s ease; box-shadow: 0 2px 4px rgba(0,0,0,0.1);"
+                    onmouseover="this.style.transform='translateY(-2px)'; this.style.boxShadow='0 4px 8px rgba(0,0,0,0.2)'"
+                    onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0 2px 4px rgba(0,0,0,0.1)'">
+                <span style="font-size: 2rem;">💾</span>
+                <div style="text-align: left;">
+                    <strong>Fazer Backup Completo</strong>
+                    <br>
+                    <span style="font-size: 0.875rem; opacity: 0.9;">Arquivo SQLite (.db) - Contém todos os dados do sistema</span>
+                </div>
+            </button>
+
+            <button onclick="document.getElementById('modal').classList.remove('ativo')" 
+                    style="background: linear-gradient(135deg, #64748b 0%, #475569 100%); 
+                           color: white; border: none; border-radius: 8px; cursor: pointer;
+                           padding: 1rem; font-size: 1rem; margin-top: 1rem;
+                           transition: all 0.2s ease;">
+                ❌ Cancelar
+            </button>
+        </div>
+
+        <div style="margin-top: 2rem; padding: 1rem; background: #f8fafc; border-radius: 8px; border-left: 4px solid #0284c7;">
+            <h4 style="color: #0284c7; margin: 0 0 0.5rem 0; font-size: 0.9rem;">ℹ️ Sobre o backup:</h4>
+            <ul style="margin: 0; padding-left: 1.5rem; color: #64748b; font-size: 0.85rem;">
+                <li><strong>Arquivo SQLite (.db):</strong> Backup completo de todo o sistema</li>
+                <li><strong>Contém:</strong> Todas as AIHs, movimentações, glosas, usuários e configurações</li>
+                <li><strong>Uso:</strong> Para restaurar o sistema ou migrar para outro servidor</li>
+                <li><strong>Segurança:</strong> Mantenha o arquivo em local seguro</li>
+            </ul>
+        </div>
+    `;
+
+    modal.classList.add('ativo');
+});

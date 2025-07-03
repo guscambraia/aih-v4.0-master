@@ -1,0 +1,90 @@
+2025-06-30T18:11:45.579Z - POST /api/relatorios/fluxo-movimentacoes
+Gerando relatório tipo: fluxo-movimentacoes - página: 1
+Tipo de relatório não suportado: fluxo-movimentacoes
+2025-06-30T18:12:07.163Z - POST /api/relatorios/fluxo-movimentacoes
+Gerando relatório tipo: fluxo-movimentacoes - página: 1
+Tipo de relatório não suportado: fluxo-movimentacoes
+2025-06-30T18:12:09.976Z - POST /api/relatorios/analise-temporal-cadastros
+Gerando relatório tipo: analise-temporal-cadastros - página: 1
+Tipo de relatório não suportado: analise-temporal-cadastros
+2025-06-30T18:12:12.348Z - POST /api/relatorios/eficiencia-processamento
+Gerando relatório tipo: eficiencia-processamento - página: 1
+Tipo de relatório não suportado: eficiencia-processamento
+2025-06-30T18:12:14.671Z - POST /api/relatorios/comparativo-auditorias
+Gerando relatório tipo: comparativo-auditorias - página: 1
+Tipo de relatório não suportado: comparativo-auditorias
+2025-06-30T18:12:17.501Z - POST /api/relatorios/produtividade-auditores
+Gerando relatório tipo: produtividade-auditores - página: 1
+Tipo de relatório não suportado: produtividade-auditores
+2025-06-30T18:12:20.283Z - POST /api/relatorios/cruzamento-profissional-glosas
+Gerando relatório tipo: cruzamento-profissional-glosas - página: 1
+Tipo de relatório não suportado: cruzamento-profissional-glosas
+2025-06-30T18:14:36.538Z - POST /api/relatorios/fluxo-movimentacoes
+Gerando relatório tipo: fluxo-movimentacoes - página: 1
+Tipo de relatório não suportado: fluxo-movimentacoes
+2025-06-30T18:14:39.331Z - POST /api/relatorios/analise-temporal-cadastros
+Gerando relatório tipo: analise-temporal-cadastros - página: 1
+Tipo de relatório não suportado: analise-temporal-cadastros
+2025-06-30T18:14:41.248Z - POST /api/relatorios/eficiencia-processamento
+Gerando relatório tipo: eficiencia-processamento - página: 1
+Tipo de relatório não suportado: eficiencia-processamento
+2025-06-30T18:14:42.991Z - POST /api/relatorios/comparativo-auditorias
+Gerando relatório tipo: comparativo-auditorias - página: 1
+Tipo de relatório não suportado: comparativo-auditorias
+2025-06-30T18:14:44.725Z - POST /api/relatorios/produtividade-auditores
+Gerando relatório tipo: produtividade-auditores - página: 1
+Tipo de relatório não suportado: produtividade-auditores
+2025-06-30T18:14:46.570Z - POST /api/relatorios/aihs-profissional-periodo
+Gerando relatório tipo: aihs-profissional-periodo - página: 1
+Relatório aihs-profissional-periodo gerado com sucesso
+2025-06-30T18:14:48.569Z - POST /api/relatorios/aihs-profissional-periodo
+Gerando relatório tipo: aihs-profissional-periodo - página: 1
+Relatório aihs-profissional-periodo gerado com sucesso
+2025-06-30T18:14:58.125Z - POST /api/relatorios/aihs-profissional-periodo
+Gerando relatório tipo: aihs-profissional-periodo - página: 1
+Relatório aihs-profissional-periodo gerado com sucesso
+2025-06-30T18:14:58.988Z - POST /api/relatorios/glosas-profissional-periodo
+Gerando relatório tipo: glosas-profissional-periodo - página: 1
+Tipo de relatório não suportado: glosas-profissional-periodo
+2025-06-30T18:15:00.904Z - POST /api/relatorios/cruzamento-profissional-glosas
+Gerando relatório tipo: cruzamento-profissional-glosas - página: 1
+Tipo de relatório não suportado: cruzamento-profissional-glosas
+2025-06-30T18:15:02.707Z - POST /api/relatorios/analise-valores-glosas
+Gerando relatório tipo: analise-valores-glosas - página: 1
+Tipo de relatório não suportado: analise-valores-glosas
+2025-06-30T18:15:04.780Z - POST /api/relatorios/valores-glosas-periodo
+Gerando relatório tipo: valores-glosas-periodo - página: 1
+Relatório valores-glosas-periodo gerado com sucesso
+2025-06-30T18:15:12.125Z - POST /api/relatorios/valores-glosas-periodo
+Gerando relatório tipo: valores-glosas-periodo - página: 1
+Relatório valores-glosas-periodo gerado com sucesso
+2025-06-30T18:15:13.066Z - POST /api/relatorios/analise-financeira
+Gerando relatório tipo: analise-financeira - página: 1
+Tipo de relatório não suportado: analise-financeira
+2025-06-30T18:15:15.111Z - POST /api/relatorios/distribuicao-valores
+Gerando relatório tipo: distribuicao-valores - página: 1
+Tipo de relatório não suportado: distribuicao-valores
+2025-06-30T18:15:17.008Z - POST /api/relatorios/ranking-glosas-frequentes
+Gerando relatório tipo: ranking-glosas-frequentes - página: 1
+Tipo de relatório não suportado: ranking-glosas-frequentes
+2025-06-30T18:15:18.610Z - POST /api/relatorios/tipos-glosa-periodo
+Gerando relatório tipo: tipos-glosa-periodo - página: 1
+Relatório tipos-glosa-periodo gerado com sucesso
+2025-06-30T18:15:27.517Z - POST /api/relatorios/detalhamento-status
+Gerando relatório tipo: detalhamento-status - página: 1
+Tipo de relatório não suportado: detalhamento-status
+2025-06-30T18:15:29.744Z - POST /api/relatorios/performance-competencias
+Gerando relatório tipo: performance-competencias - página: 1
+Tipo de relatório não suportado: performance-competencias
+2025-06-30T18:15:31.541Z - POST /api/relatorios/estatisticas-periodo
+Gerando relatório tipo: estatisticas-periodo - página: 1
+Relatório estatisticas-periodo gerado com sucesso
+2025-06-30T18:15:35.289Z - POST /api/relatorios/acessos
+Gerando relatório tipo: acessos - página: 1
+Relatório acessos gerado com sucesso
+2025-06-30T18:15:41.831Z - POST /api/relatorios/aprovacoes
+Gerando relatório tipo: aprovacoes - página: 1
+Relatório aprovacoes gerado com sucesso
+2025-06-30T18:15:45.671Z - POST /api/relatorios/analise-preditiva
+Gerando relatório tipo: analise-preditiva - página: 1
+Tipo de relatório não suportado: analise-preditiva
